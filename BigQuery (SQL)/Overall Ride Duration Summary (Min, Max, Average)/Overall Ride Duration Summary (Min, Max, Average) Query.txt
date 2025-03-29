@@ -1,0 +1,20 @@
+SELECT 
+  MIN(EXTRACT(HOUR FROM ride_length) * 3600 +
+      EXTRACT(MINUTE FROM ride_length) * 60 +
+      EXTRACT(SECOND FROM ride_length)) AS min_seconds,
+  MIN(EXTRACT(HOUR FROM ride_length) * 3600 +
+      EXTRACT(MINUTE FROM ride_length) * 60 +
+      EXTRACT(SECOND FROM ride_length)) / 60 AS min_minutes,
+  MAX(EXTRACT(HOUR FROM ride_length) * 3600 +
+      EXTRACT(MINUTE FROM ride_length) * 60 +
+      EXTRACT(SECOND FROM ride_length)) AS max_seconds,
+  MAX(EXTRACT(HOUR FROM ride_length) * 3600 +
+      EXTRACT(MINUTE FROM ride_length) * 60 +
+      EXTRACT(SECOND FROM ride_length)) / 60 AS max_minutes,
+  AVG(EXTRACT(HOUR FROM ride_length) * 3600 +
+      EXTRACT(MINUTE FROM ride_length) * 60 +
+      EXTRACT(SECOND FROM ride_length)) AS avg_seconds,
+  AVG(EXTRACT(HOUR FROM ride_length) * 3600 +
+      EXTRACT(MINUTE FROM ride_length) * 60 +
+      EXTRACT(SECOND FROM ride_length)) / 60 AS avg_minutes
+FROM `cyclisticcasestudy-454609.Cyclistic_Case_Study.Cleaned_Data`;

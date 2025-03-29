@@ -1,0 +1,7 @@
+SELECT 
+  start_hour,
+  user_type,
+  COUNT(*) AS ride_count
+FROM `cyclisticcasestudy-454609.Cyclistic_Case_Study.Cleaned_Data`
+GROUP BY start_hour, user_type
+ORDER BY start_hour;

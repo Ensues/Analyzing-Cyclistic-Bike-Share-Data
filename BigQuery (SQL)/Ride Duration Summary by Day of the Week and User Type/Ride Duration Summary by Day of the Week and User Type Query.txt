@@ -1,0 +1,13 @@
+SELECT 
+  day_of_week,
+  user_type,
+  COUNT(*) AS ride_count,
+  AVG(EXTRACT(HOUR FROM ride_length) * 3600 +
+      EXTRACT(MINUTE FROM ride_length) * 60 +
+      EXTRACT(SECOND FROM ride_length)) AS avg_seconds,
+  AVG(EXTRACT(HOUR FROM ride_length) * 3600 +
+      EXTRACT(MINUTE FROM ride_length) * 60 +
+      EXTRACT(SECOND FROM ride_length)) / 60 AS avg_minutes
+FROM `cyclisticcasestudy-454609.Cyclistic_Case_Study.Cleaned_Data`
+GROUP BY day_of_week, user_type
+ORDER BY day_of_week;
