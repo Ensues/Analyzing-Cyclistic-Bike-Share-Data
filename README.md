@@ -13,7 +13,6 @@ A Capstone Project for Google Data Analytics Certification
 - [Project Overview](#project-overview)
 - [Repository Structure](#repository-structure)
 - [Methodology Summary](#methodology-summary)
-- [Data Source & Licensing](#data-source--licensing)
 - [Key Findings & Insights](#key-findings--insights)
 - [Future Work](#future-work)
 
@@ -43,7 +42,7 @@ The insights derived—such as Customers taking longer, weekend-centric rides an
 ## Repository Structure
 - **Data** - Raw and cleaned datasets.
 - **SQL** - BigQuery queries and output results.
-- **Visualizations** - Tableau Public dashboard link and screenshots.
+- **Visualizations** - [Tableau Public dashboard link](https://public.tableau.com/app/profile/eric.janssen.quiambao/viz/CyclisticBike-ShareAnalysisRidePatternsandUserInsightsV2/CyclisticBike-ShareAnalysisRidePatternsandUserInsights) and screenshots.
 - **Documentation** - Detailed project documentation and analysis summaries.
 
 
@@ -68,3 +67,9 @@ The project follows a structured six-phase data analytics process: Ask, Prepare,
 - **Time-of-Day Trends** - Subscribers tend to ride during early and late working hours, consistent with typical commutes, whereas Customers ride more consistently throughout the day with a notable surge on weekends.
 
 These insights form a robust foundation for developing targeted digital marketing strategies aimed at converting casual riders into loyal annual members.
+
+---
+
+## Future Work
+
+Future enhancements include integrating advanced statistical analysis using R to refine insights further and exploring additional interactive features and segmentation (e.g., by age group or specific stations) for more granular recommendations.
