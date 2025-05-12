@@ -20,11 +20,13 @@ A Capstone Project for Google Data Analytics Certification
 ---
 
 ## Project Overview
-This project examines Cyclistic’s bike-share data to uncover behavioral differences between annual members (Subscribers) and casual riders (Customers). 
+Examined a Cyclistic’s bike-share database to uncover behavioral differences between annual members (Subscribers) and casual riders (Customers).
 
-Using a full 12-month dataset, I analyzed seasonal trends and usage patterns through Google Sheets, Tableau Public, and Google BigQuery (SQL). 
+Using a full 12-month dataset, I cross analyzed and validated seasonal trends and usage patterns through three tools: Google Sheets, Tableau Public, and Google BigQuery (SQL).
 
-The insights derived—such as Customers taking longer, weekend-centric rides and Subscribers riding more frequently during weekdays—form the basis for targeted digital marketing strategies aimed at converting casual riders into loyal annual members.
+
+Derived insightful information that forms the basis for targeted digital marketing strategies aimed at converting casual riders into loyal annual members.
+
 
 
 ---
