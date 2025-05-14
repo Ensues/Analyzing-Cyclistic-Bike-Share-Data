@@ -34,7 +34,7 @@ Derived insightful information that forms the basis for targeted digital marketi
 ## Tools & Technologies
 - **Google Sheets** - For data cleaning, manipulation, and initial pivot table analysis.
 - **Tableau Public** - To create interactive dashboards and visualizations.
-- **Google BigQuery (SQL)** - For efficient data querying and aggregation.
+- **Google BigQuery (SQL)** - Re-analyzed the cleaned data for cross vaidation of results.
 
 *Note: R integration was planned for future analysis but is not included in the current project scope.*
 
