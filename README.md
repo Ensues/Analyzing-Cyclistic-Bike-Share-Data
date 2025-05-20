@@ -1,7 +1,6 @@
 
 # How Does a Bike-Share Navigate Speedy Success? 
   <p align="center">
-    <img alt="Excel" src="https://img.shields.io/badge/excel-008000?style=for-the-badge&logo=google-sheets&logoColor=white" />
     <img alt="Sheets" src="https://img.shields.io/badge/Sheets-008000?style=for-the-badge&logo=google-sheets&logoColor=white" />
     <img alt="Tableau" src="https://img.shields.io/badge/Tableau-ffffff?style=for-the-badge&logo=Tableau&logoColor=black" />
     <img alt="SQL" src="https://img.shields.io/badge/-SQL-000?style=for-the-badge&logo=MySQL&logoColor=4479A1" />
